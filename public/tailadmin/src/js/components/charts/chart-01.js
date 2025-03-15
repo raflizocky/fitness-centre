@@ -5,15 +5,15 @@ const chart01 = () => {
   const chartOneOptions = {
     series: [
       {
-        name: "Sales",
-        data: [168, 385, 201, 298, 187, 195, 291, 110, 215, 390, 280, 112],
+        name: "Revenue",
+        data: [45, 78, 23, 92, 56, 34, 67, 89, 12, 47, 82, 37],
       },
     ],
     colors: ["#465fff"],
     chart: {
       fontFamily: "Outfit, sans-serif",
       type: "bar",
-      height: 180,
+      height: 400,
       toolbar: {
         show: false,
       },
@@ -68,6 +68,9 @@ const chart01 = () => {
     },
     yaxis: {
       title: false,
+      min: 0,
+      max: 120,
+      tickAmount: 5,
     },
     grid: {
       yaxis: {
@@ -102,5 +105,4 @@ const chart01 = () => {
     chartFour.render();
   }
 };
-
 export default chart01;
