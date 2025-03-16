@@ -7,3 +7,7 @@ use CodeIgniter\Router\RouteCollection;
  */
 // $routes->get('/', 'Home::index');
 $routes->get('/', 'Dashboard::index');
+$routes->get('/registration/member', 'Registration::index');
+$routes->get('/registration/member-attendance', 'Registration::indexAttendanceMember');
+$routes->get('/registration/payment-method', 'Registration::indexPaymentMethod');
+$routes->get('/registration/package', 'Registration::indexPackage');

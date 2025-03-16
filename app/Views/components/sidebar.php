@@ -11,7 +11,7 @@ $baseUrl = base_url('tailadmin/build/');
     :class="sidebarToggle ? 'justify-center' : 'justify-between'"
     class="flex items-center gap-2 pt-8 sidebar-header pb-7"
   >
-    <a href="#">
+    <a href="/">
       <span class="logo" :class="sidebarToggle ? 'hidden' : ''">
         <img class="dark:hidden" src="<?= $baseUrl ?>src/images/logo/fitness.png" alt="Logo" />
         <img
@@ -168,32 +168,32 @@ $baseUrl = base_url('tailadmin/build/');
     >
       <li>
         <a
-          href="<?= $baseUrl ?>form-elements.html"
+          href="/registration/member"
           class="menu-dropdown-item group"
           :class="page === 'formElements' ? 'menu-dropdown-item-active' : 'menu-dropdown-item-inactive'"
         >
           Member
         </a>
         <a
-          href="<?= $baseUrl ?>form-elements.html"
+          href="/registration/member-attendance"
           class="menu-dropdown-item group"
           :class="page === 'formElements' ? 'menu-dropdown-item-active' : 'menu-dropdown-item-inactive'"
         >
           Member Attendance
         </a>
         <a
-          href="<?= $baseUrl ?>form-elements.html"
+          href="/registration/payment-method"
           class="menu-dropdown-item group"
           :class="page === 'formElements' ? 'menu-dropdown-item-active' : 'menu-dropdown-item-inactive'"
         >
-          Payment Methods
+          Payment Method
         </a>
         <a
-          href="<?= $baseUrl ?>form-elements.html"
+          href="/registration/package"
           class="menu-dropdown-item group"
           :class="page === 'formElements' ? 'menu-dropdown-item-active' : 'menu-dropdown-item-inactive'"
         >
-          Packages
+          Package
         </a>
       </li>
     </ul>
