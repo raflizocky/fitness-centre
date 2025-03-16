@@ -275,18 +275,11 @@ $baseUrl = base_url('tailadmin/build/');
     >
       <li>
         <a
-          href="<?= $baseUrl ?>form-elements.html"
+          href="/transaction/application-form"
           class="menu-dropdown-item group"
           :class="page === 'formElements' ? 'menu-dropdown-item-active' : 'menu-dropdown-item-inactive'"
         >
           Application Form
-        </a>
-        <a
-          href="<?= $baseUrl ?>form-elements.html"
-          class="menu-dropdown-item group"
-          :class="page === 'formElements' ? 'menu-dropdown-item-active' : 'menu-dropdown-item-inactive'"
-        >
-          Lesson
         </a>
       </li>
     </ul>
