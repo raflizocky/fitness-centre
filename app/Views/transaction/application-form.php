@@ -85,7 +85,7 @@ $baseUrl = base_url('tailadmin/build/');
                                 <p
                                   class="text-theme-xs font-medium text-gray-500 dark:text-gray-400"
                                 >
-                                  Code
+                                  Transaction Number
                                 </p>
                               </div>
                             </th>
@@ -104,7 +104,7 @@ $baseUrl = base_url('tailadmin/build/');
                                 <p
                                   class="text-theme-xs font-medium text-gray-500 dark:text-gray-400"
                                 >
-                                  Application Form
+                                  Package Code
                                 </p>
                               </div>
                             </th>

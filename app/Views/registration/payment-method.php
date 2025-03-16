@@ -103,7 +103,7 @@ $baseUrl = base_url('tailadmin/build/');
                                 <p
                                   class="text-theme-xs font-medium text-gray-500 dark:text-gray-400"
                                 >
-                                  Information
+                                  Description
                                 </p>
                               </div>
                             </th>

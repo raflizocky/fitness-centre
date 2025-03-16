@@ -69,8 +69,18 @@ const chart01 = () => {
     yaxis: {
       title: false,
       min: 0,
-      max: 120,
-      tickAmount: 5,
+      max: 100, // Set the maximum value to 100
+      tickAmount: 2, // Only show 3 ticks (0, 50, 100)
+      labels: {
+        formatter: (value) => {
+          // Return only 0, 50, and 100
+          if (value === 0 || value === 50 || value === 100) {
+            return value;
+          }
+          return ""; // Hide other values
+        },
+        offsetX: 3, // Add space/margin to the left of the labels
+      },
     },
     grid: {
       yaxis: {
