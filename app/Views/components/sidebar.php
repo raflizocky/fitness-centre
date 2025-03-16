@@ -369,21 +369,14 @@ $baseUrl = base_url('tailadmin/build/');
     >
       <li>
         <a
-          href="<?= $baseUrl ?>form-elements.html"
+          href="/report/member-report"
           class="menu-dropdown-item group"
           :class="page === 'formElements' ? 'menu-dropdown-item-active' : 'menu-dropdown-item-inactive'"
         >
           Member
         </a>
         <a
-          href="<?= $baseUrl ?>form-elements.html"
-          class="menu-dropdown-item group"
-          :class="page === 'formElements' ? 'menu-dropdown-item-active' : 'menu-dropdown-item-inactive'"
-        >
-          Lesson
-        </a>
-        <a
-          href="<?= $baseUrl ?>form-elements.html"
+          href="/report/application-form-report"
           class="menu-dropdown-item group"
           :class="page === 'formElements' ? 'menu-dropdown-item-active' : 'menu-dropdown-item-inactive'"
         >
