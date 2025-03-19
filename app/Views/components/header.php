@@ -8,7 +8,7 @@ $baseUrl = base_url('tailadmin/build/');
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <title>
-      eCommerce Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template
+      Fitness Centre
     </title>
 
     <link rel="icon" href="<?= $baseUrl ?>favicon.ico"><link href="<?= $baseUrl ?>style.css" rel="stylesheet">
